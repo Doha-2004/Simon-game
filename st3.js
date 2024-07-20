@@ -72,6 +72,7 @@ function checkSequence(buttonId){
     vocie.play();
                 document.getElementById('key').innerHTML = "Game Over! You clicked the wrong button,Press A key to start again";
                 count = 1;
+                seq=[];
                 
  }
 }
